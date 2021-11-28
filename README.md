@@ -1,7 +1,4 @@
 # Election_Analysis
-<h1 align="center"><Election Analysis</h1>
-
-##<p align="center"><
 
 This analysis aims to ensure the quality of the data provided, provide readily available statistics, and determine the winner of the elction.
 
@@ -17,7 +14,7 @@ This analysis aims to ensure the quality of the data provided, provide readily a
 
 *Largest County Percentage: Denver: 27.6% (306,055)
 
-###Canditate Vote Breakdown
+Canditate Vote Breakdown
 
 *Charles Casper Stockham: 15.4% (170,426)
 
@@ -25,7 +22,7 @@ This analysis aims to ensure the quality of the data provided, provide readily a
 
 *Raymon Anthony Doane: 2.1% (23,212)
 
-###Winner Breakdown:
+Winner Breakdown:
 
 *Winner: Diana DeGette
 
@@ -35,7 +32,7 @@ This analysis aims to ensure the quality of the data provided, provide readily a
 
 This program is designed to be flexible. A few variable changes will pull these results for any election data. The "With" statement fuction and "for" loop functions are the crucial pieces of our program that allow this flexibility. I will explain those variables with example below.
 
-with open(file_to_load) as election_data:
+    with open(file_to_load) as election_data:
     file_reader = csv.reader(election_data)
 
     <h1 style="color:blue;">This reads the header row to find our desired values.</h1>
